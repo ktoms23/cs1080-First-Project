@@ -89,6 +89,16 @@
         .nav-item a:hover {
             background: rgb(85, 97, 201);
         }
+        @media (max-width: 600px) {
+            #nav-container {
+                flex-direction: column; 
+                align-items: center; 
+            }
+            .nav-item {
+                max-width: 100%; 
+                margin-bottom: 20px; 
+            }
+        }
         footer {
             text-align: center;
             background: rgb(35, 37, 54);
